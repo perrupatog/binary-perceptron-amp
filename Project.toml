@@ -1,0 +1,8 @@
+name = "BinaryPerceptronAMP"
+uuid = "1d1b2f24-5cb6-4a89-91e9-6e4e4c6fb5d0"
+authors = ["Gianmarco Perrupato (perrupatog)"]
+version = "0.1.0"
+
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
