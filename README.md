@@ -8,15 +8,7 @@ Julia code for studying the binary perceptron with Approximate Message Passing (
 Binary labels are generated using the square-wave activation
 
 ```math
-\varphi_{\delta}(h)
-=
-\operatorname{sgn}\!\left[
-\left(
-\frac{h}{2\delta}
-+
-\frac12
-\right)\bmod 1
-\right],
+\varphi_{\delta}(h)=\mathrm{sgn}\!\left[\left(\frac{h}{2\delta}+\frac12\right)\bmod 1\right],
 ```
 
 where the modulo operation is centered in the interval
