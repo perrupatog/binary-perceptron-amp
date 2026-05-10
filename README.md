@@ -12,13 +12,13 @@ Binary labels are generated using the square-wave activation
 ```
 
 where the modulo operation is centered in the interval
-$[-\tfrac12,\tfrac12)$, i.e. $x \bmod 1$ denotes the unique real
-number in $[-\tfrac12,\tfrac12)$ that differs from $x$ by an integer.
+`[-1/2, 1/2)`, i.e. `x mod 1` denotes the unique real
+number in `[-1/2, 1/2)` that differs from `x` by an integer.
 
 The implementation uses a strictly binary activation taking values in
-$\{-1,+1\}$. In the large-$\delta$ limit, the model reduces to the
+`{-1, +1}`. In the large-`δ` limit, the model reduces to the
 standard asymmetric perceptron, since the sign is then controlled by the
-local field $h$.
+local field `h`.
 
 The main implementation lives in [`src/BinaryPerceptronAMP.jl`](src/BinaryPerceptronAMP.jl).
 
